@@ -1,0 +1,27 @@
+#area {
+    width: 800px;
+    height: 800px;
+    display: block;
+    float: left;
+    font-size: 0
+}
+
+.box {
+    height: 16px;
+    display: inline-block;
+    width: 16px;
+    background-color: rgba(233, 233, 233, 0.667);
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 0.5px solid rgb(156, 156, 156);
+}
+
+.snake-head {
+    background-color: black;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
